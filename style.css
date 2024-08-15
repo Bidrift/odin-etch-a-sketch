@@ -2,4 +2,29 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    gap:50 px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #000;
+}
+
+.sketch-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-element {
+    outline: 1px solid #000;
 }
